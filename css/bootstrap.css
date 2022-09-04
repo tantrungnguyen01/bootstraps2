@@ -1,0 +1,114 @@
+*{
+    font-family: 'Hind Siliguri', sans-serif;
+}
+:root{
+    --primary:#35a22c;
+    --white:#fff;
+    --black:#000;
+    --grey:#aaa;
+
+}
+header{
+    background:var(--white);
+    position: relative;
+}
+.app-logo i{
+    color: var(--primary);
+    font-size: 45px;
+}
+.app-logo span{
+    font-size: 32px;
+    margin-left: 5px;
+    color: var(--white);
+}
+.nav-toogle-btn{
+    background: var(--primary);
+}
+.nav-toogle-btn span{
+    color: var(--grey);
+}
+.navbar-collapse-custom{
+    background: var(--white);
+}
+.navbar-collapse-custom a{
+    color: var(--primary);
+}
+.navbar-collapse-custom li{
+    padding: 0 5px;
+}
+.navbar-collapse-custom li:hover a{
+    color: var(--white);
+}
+.navbar-collapse-custom li a.active{
+    color: var(--primary) !important;
+}
+
+
+.navbar-collapse-custom .show {
+    background: var(--white);
+}
+.navbar-collapse-custom .show a{
+    color: var(--primary);
+}
+.navbar-collapse-custom .show li{
+    padding: 0 5px;
+}
+.navbar-collapse-custom .show li:hover {
+    color: var(--white);
+}
+.navbar-collapse-custom .show li:hover a {
+    color: var(--white);
+}
+.navbar-collapse-custom .show li a.active{
+    color: var(--primary) !important;
+}
+/* destop */
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background: var(--black);
+    opacity: 0.5;
+    left: 0;
+    top: 0;
+}
+
+.custom-carousel-indicators button{
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 50%;
+    border: none !important;
+}
+.custom-carousel-indicators button .active{
+    background: var(--primary) !important;
+}
+.custom-carousel-caption{
+    bottom: 50%;
+    transform: translateY(50%);
+}
+#avalaible{
+    background: url('../img/3.jpg');
+    position: relative;
+    padding: 100px 0;
+}
+#avlaible::before{
+    width: 100%;
+    height: 100%;
+    content:'';
+    position: absolute;
+    background: var(--black);
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.avalaible-content{
+    position: relative;
+    z-index: 300;
+}
+.avalaible-item i{
+    color: var(--primary);
+}
+.avalaible-item .custom-card{
+    background: rgba(255, 255,255, 0.1);
+}
